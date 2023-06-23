@@ -1,0 +1,404 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 42px;
+    margin-top: 10px;
+    border-top: solid 1px #c4c4c4;
+    border-bottom: solid 1px #c4c4c4;
+
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.accent-text {
+    display: block;
+}
+
+h1 .accent-text {
+    font-size: 80px;
+}
+
+h2 .accent-text {
+    font-size: 60px;
+}
+
+.accent-text,
+.name,
+time {
+    font-weight: 900;
+    color: #99D930;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+}
+
+.small-text {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+header  {
+    padding: 50px 0 25px;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.inverse {
+    color: #fff;
+    background: #252525;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background: #fff;
+    color: #252525;
+}
+
+.btn {
+    display: inline-block;
+    color: #252525;
+    text-decoration: none;
+    background: #99D930;
+    padding: 10px 25px;
+    margin-top: 25px;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #252525;
+    color: #fff;
+}
+
+.admin_button {
+    background: #131313;
+    padding: 0;
+    float: right;
+    margin-bottom: 0;
+}
+
+.login-button {
+	display: inline-block;
+    background-color: #99D930;
+    color: #252525;
+    float: right;
+    width: 10%;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #666666;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
+
+#logo {
+    height: 50px;
+
+}
+
+#big_logo {
+  max-width: 500px;
+  height: auto;
+}
+
+ #nav-logo {
+    float: left;
+    padding: 5px 5px 0px;
+}
+
+.navbar a {
+    float: left;
+    display: inline-block;
+    color: #eeeeee;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color:#99D930;
+}
+
+#login{
+    background-color: #99D930;
+    color: #252525;
+    float: right;
+    border-radius: 4px;
+
+}
+
+#login:hover,
+#login:focus {
+    background: #fff;
+    color: #252525;
+}
+.container_2{
+    text-align: left;
+}
+input[type=text],input[type=email], input[type=tel],input[type=password], input[type=file], input[type=number], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+#usermail, #password, #firstname, #lastname {
+    width: 30%;
+}
+
+  input[type=submit], button {
+    background-color: #99D930;
+    color: black;
+    padding: 14px 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+#form_show_button {
+  margin-top: 20px;
+}
+
+#admin_buttons {
+  width: 90%;
+}
+
+#admin_icons {
+  display: inline-block;
+}
+
+#admin_icons img{
+  width: 200px;
+  height: auto;
+}
+
+.admin_icon {
+  display: inline-block;
+  padding:50px;
+  padding-bottom: 0px;
+}
+
+.admin_icon label {
+  font-weight: bold;
+}
+
+#icon_attribution {
+  margin-top: 100px;
+}
+
+#submit-registration, #submit-login {
+  width: 30%;
+  }
+
+#create_account_button {
+  width: 30%
+}
+
+  div .container_2{
+    border-radius: 50px;
+    padding: 20px;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  label{
+    text-align: left;
+  }
+#register{
+    color: #99D930;
+}
+#register:hover,
+#register:focus{
+    color: black;
+
+}
+
+#container_2, #blog_creation_left, #blog_creation_right, #right{
+    display: inline-block;
+    padding: 50px;
+    vertical-align: top;
+}
+
+#blog_creation_left, #blog_creation_right {
+    width: 25%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.blog_post {
+  width: 50%;
+  display: block;
+  margin-right: 25%;
+  margin-left: auto;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  box-shadow: 5px 5px 5px #888888;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.blog_post p, .blog_post h3{
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.blog_post h2 {
+  border-top: none;
+}
+
+.blog_link {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.blog_picture {
+  width: 80%;
+  height: auto;
+  margin: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+#blog_TOC {
+  display: inline-block;
+  float: left;
+  text-align: left;
+  width: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: thin;
+}
+
+#TOC_title {
+  text-align: center;
+}
+
+#blog_TOC a {
+  cursor: pointer;
+}
+
+#blog_buttons {
+  width: 40%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+#blog_next {
+  float: right;
+  min-width: 200px;
+}
+
+#blog_previous {
+  float: left;
+  min-width: 200px;
+}
+
+#booklist {
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: thin;
+  padding: 25px;
+}
+
+#booklist input[type="text"], #booklist input[type="number"] {
+  width: 15%;
+  margin: 15px;
+}
+
+#book_image, #book_image img {
+  max-width: 200px;
+  height:auto;
+}
+
+.toggle_columns {
+  padding-top: 10px;
+}
+
+.list_labels {
+  width: 15%;
+  margin: 15px;
+  display: inline-block;
+  text-align: center;
+}
+
+.list_labels label {
+  font-weight: bold;
+}
+
+#receipt_table {
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+#receipt_table th, #receipt_table td {
+  width: 15%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#add_cause {
+  margin: auto;
+  width: 50%;
+}
+
+#add_class input[type="text"], #add_class select{
+  width: 40%;
+}
